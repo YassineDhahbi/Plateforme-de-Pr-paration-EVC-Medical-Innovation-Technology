@@ -1,7 +1,6 @@
 # 🩺 Plateforme de Préparation EVC  
 ### Medical Innovation Technology © – Janvier 2023 → Juin 2023
 
-<img src="https://via.placeholder.com/1400x600/00695c/ffffff?text=Plateforme+de+Préparation+EVC+-+Medical+Innovation+Technology" alt="Bannière du projet" width="100%"/>
 
 > Application web full-stack destinée aux médecins et internes en médecine pour préparer efficacement les **Épreuves de Vérification des Connaissances (EVC)** grâce à des cours, actualités médicales, quizz et packs premium.
 
@@ -45,8 +44,5 @@
 
 </div>
 
-> *(Crée un dossier `screenshots/` à la racine et mets-y tes vraies captures pour que ça s’affiche)*
 
-## 🏆
 
-## 🗄️ Structure simplifiée de la base de données
