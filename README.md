@@ -34,13 +34,13 @@
 
 <div align="center">
 
-<img src="screenshots/accueil.png" alt="Accueil" width="80%"/>
+<img src="cp1.png" alt="Accueil" width="45%"/>
 <br><br>
-<img src="screenshots/connexion.png" alt="Connexion" width="45%"/> <img src="screenshots/catalogue.png" alt="Catalogue des cours" width="45%"/>
+<img src="cp2.png" alt="Accueil" width="80%"/>
 <br><br>
-<img src="screenshots/cours-detail.png" alt="Détail d’un cours" width="45%"/> <img src="screenshots/quizz.png" alt="Quizz interactif" width="45%"/>
+<img src="cp3.png" alt="Accueil" width="80%"/>
 <br><br>
-<img src="screenshots/admin-dashboard.png" alt="Dashboard Admin" width="80%"/>
+<img src="cp4.png" alt="Accueil" width="80%"/>
 
 </div>
 
