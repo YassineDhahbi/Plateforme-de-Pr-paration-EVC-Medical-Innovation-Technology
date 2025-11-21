@@ -1,0 +1,29 @@
+2023-05-03 17:01:49.234  INFO 19032 --- [main] com.app.dev.EvcApplication               : Starting EvcApplication using Java 19.0.2 on Yassine with PID 19032 (C:\PFE\Backend\evc\target\classes started by yassi in C:\PFE\Backend\evc)
+2023-05-03 17:01:49.249  INFO 19032 --- [main] com.app.dev.EvcApplication               : No active profile set, falling back to default profiles: default
+2023-05-03 17:01:49.540  WARN 19032 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2023-05-03 17:01:50.683  INFO 19032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 17:01:50.853  INFO 19032 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 7 JPA repository interfaces.
+2023-05-03 17:01:52.803  INFO 19032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-03 17:01:52.820  INFO 19032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-03 17:01:52.821  INFO 19032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-05-03 17:01:52.961  INFO 19032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-03 17:01:52.963  INFO 19032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3549 ms
+2023-05-03 17:01:53.628  INFO 19032 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 17:01:53.743  INFO 19032 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-05-03 17:01:53.972  INFO 19032 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 17:01:54.171  INFO 19032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-03 17:01:54.549  INFO 19032 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-03 17:01:54.576  INFO 19032 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-05-03 17:01:55.790  INFO 19032 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 17:01:55.802  INFO 19032 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 17:01:56.734  WARN 19032 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 17:01:57.448  INFO 19032 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9dc62f, org.springframework.security.web.context.SecurityContextPersistenceFilter@226e95e9, org.springframework.security.web.header.HeaderWriterFilter@59e4a044, org.springframework.security.web.authentication.logout.LogoutFilter@25c4f621, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35efd12c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e1c91cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@326dbe25, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28ceb25e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cb3463b, org.springframework.security.web.session.SessionManagementFilter@6219006a, org.springframework.security.web.access.ExceptionTranslationFilter@41d53813, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@244268a8]
+2023-05-03 17:01:58.333  INFO 19032 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-03 17:01:59.136  INFO 19032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-03 17:01:59.153  INFO 19032 --- [main] com.app.dev.EvcApplication               : Started EvcApplication in 10.748 seconds (JVM running for 27.581)
+2023-05-03 17:01:59.156  INFO 19032 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-05-03 17:01:59.165  INFO 19032 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-05-03 17:01:59.274  INFO 19032 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 17:01:59.275  INFO 19032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-03 17:01:59.276  INFO 19032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-03 17:13:19.442  WARN 19032 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m43s64ms170µs700ns).
